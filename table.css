@@ -1,0 +1,14 @@
+    * {}
+    
+    .tableClass {
+        border-color: black;
+        width: 55%;
+        margin-top: 10%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .form {
+        /* text-align: center; */
+        margin-left: 22.5%;
+    }
