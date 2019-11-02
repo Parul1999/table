@@ -1,21 +1,26 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="table.css"/>
+
 </head>
 <body>
-<form class="form">
-<input type="text" id="name" placeholder="name" style="border:1px solid black">
-
-<button id="add">Add</button>
-</form>
-<table class="tableClass" border="1" cellspacing="0">
+<center><h2>Details</h2></center>
+<table  id="tableClass" border="1" cellspacing="0">
+<tr>
+<td><input type="text" id="name" placeholder="name" ></td>
+<td><input type="text" id="email" placeholder="Email"></td>
+<td><input type="text" id="phone" placeholder="Phone" ></td>
+<td><input type="text" id="address" placeholder="Address"></td>
+<td><button id="add">Add</button>
+</tr>
 <tr>
 <td id="tname"> Name</td>
-<td id="tmail"> Email</td>
+<td id="temail"> Email</td>
 <td id="tphone">Phone </td>
 <td id="tadd"> Address</td>
 </tr>
+
 </table>
-<script src="table.js"></script>
+<script src="table.js" ></script>
 </body>
 </html>
